@@ -11,12 +11,12 @@ from win10toast import ToastNotifier
 # 0x0072 = Razer Mamba Wireless Receiver (i.e., 2.4GHz)
 # 0x0073 = Razer Mamba Wireless (i.e., when plugged in as wired mouse)
 # see README.md for instruction to find the device ID for your mouse
-WIRELESS_RECEIVER = 0x0072
-WIRELESS_WIRED = 0x0073
+WIRELESS_RECEIVER = 0x00A4
+WIRELESS_WIRED = 0x00A3
 # 2. transaction_id.id
 # 0x3f for Razer Mamba Wireless
 # see README.md for instruction to find the correct transaction_id.id for your mouse
-TRAN_ID = b"\x3f"
+TRAN_ID = b"\x1f"
 
 
 def get_mouse():
